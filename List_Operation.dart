@@ -4,11 +4,11 @@ void main(List<String> args) {
   List<dynamic> listNames = ["Dilip", "Bharath", "Jones", "Rohan"];
   print(listNames);
 
-  print("OPertion in list");
+  print("Opertion in list");
   print("object;");
   print(listNames.length); //4
   print(listNames.reversed); //["Rohan","Jones","Bharath","Dilip"]
-  print(listNames.first); //"Dilip"
+  print(listNames.first); //Dilip
   print(listNames.last); //Rohan
   print(listNames.isEmpty); //False
   print(listNames.isNotEmpty); //True
