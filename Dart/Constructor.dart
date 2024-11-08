@@ -11,7 +11,7 @@ void main(List<String> args) {
 
   emp2.CheckIn();
   emp2.CheckOut();
-  Employee emp3 = Employee.myCustomConstructor();
+  //Employee emp3 = Employee.myCustomConstructor();
   Employee emp4 =
       Employee.myNamedCustomConstructor(1224, "Rajesh", "React Developer");
   print(
